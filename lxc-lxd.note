@@ -1,0 +1,31 @@
+# Cheat sheet for LXC and LXD container
+#
+# $lxc list <-- lst the containers.
+# $lxc info <-- container information
+# $lxc delete xyz/mysnap1 <-- delete snap1
+# $lxc restore xyz mysnap2 <-- restore snap
+#
+#
+# Auto start container after shutdown
+#
+# $lxc config set <xyz> boot.autostart 1
+# $lxc config set <xyz> limits.memory 1GB
+# $lxc show <xyz>
+#
+#
+# $lxc remote list
+# $lxc image list images
+#
+# $lxc stop <container name>
+# $lxc start <container name>
+#
+# $lxc restart <container name>
+# Stop the container before you execute the container delete.
+# $lxc delete <container name>
+#
+#
+#
+#
+
+#More notes updates to come in future.
+
